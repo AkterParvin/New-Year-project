@@ -5,6 +5,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner style starts */
 .banner-container {
     background-image: url(images/banner/banner2.png);
     background-repeat: no-repeat;
@@ -19,7 +20,7 @@
     position: absolute;
     margin-top: 200px;
     margin-left: 800px;
-    /* padding: 230px; */
+
 }
 
 
@@ -54,13 +55,12 @@
     border: none;
     border-radius: 5px;
     background: #F15B22;
-    margin-left: 380px;
+    margin-left: 365px;
 
 }
 
-/* main {
-    max-width: 1600px;
-} */
+
+/* Body designes */
 
 .body-container {
     background-color: #ffffff;
@@ -89,11 +89,6 @@
     margin-left: -24px;
 }
 
-.body-description {
-    padding: ;
-
-}
-
 .body-title {
     color: #151414;
     font-size: 40px;
@@ -101,7 +96,14 @@
     margin-bottom: 20px;
 
 }
-.body-para
+
+.body-para {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 300px 20px 0px;
+}
 
 .icon-list {
     list-style: none;
@@ -109,4 +111,100 @@
 
 ul li i {
     color: #16D887;
+    padding: 10PX 5px 10px 0px;
+}
+
+.list-item {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Body second part Design */
+.icon-main-title {
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+
+}
+
+.web {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.img-icons {
+    text-align: center;
+}
+
+.web-title {
+    padding-bottom: 10px;
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+.web-detail{
+    color:#737272;
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+
+
+.call-now {
+    background-image: url(images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 120px 200px;
+    border-radius: 8px;
+
+
+}
+
+.image-call-now-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 55px 50px 10px 65px;
+}
+
+.image-call-now {
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    1x
+}
+
+.call-now-btn {
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 65px 65px 65px;
 }
