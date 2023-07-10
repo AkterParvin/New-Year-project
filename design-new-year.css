@@ -206,6 +206,7 @@ ul li i {
     margin: 10px 65px 65px 65px;
 }
 
+/* footer part design  */
 footer {
     display: flex;
     padding: 130px 150px 130PX 200PX;
@@ -217,7 +218,6 @@ footer {
 .footer-column {
     width: 50%;
 }
-
 
 .left-side-title {
     color: #F8F8F8;
@@ -255,8 +255,6 @@ footer {
     font-size: 25px;
     line-height: normal;
     padding-left: 10px;
-    /* padding-right: 200px;
-    padding-bottom: 20px; */
     padding: 0px 200px 20px 50px;
 }
 .right-side-input{
